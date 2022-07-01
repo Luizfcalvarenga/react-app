@@ -25,8 +25,9 @@ const Column = styled.div`
     display: none;
   }
   &:last-child {
-    background: black;
+    background: rgb(117,186,117);
     border-top: 1px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
   }
 `
 

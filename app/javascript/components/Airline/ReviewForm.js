@@ -5,6 +5,7 @@ const RatingContainer = styled.div`
   text-align: center;
   border-radius: 4px;
   font-size:20px;
+
   padding: 40px 0 10px 0;
   border: 1px solid #e6e6e6;
   margin: 20px 0;
@@ -65,7 +66,7 @@ const Field = styled.div`
 
 const SubmitBtn = styled.button`
   color: #fff;
-  background-color: #71b406;
+  background-color: rgb(0,92,75);
   border-radius: 4px;
   padding:12px 12px;
   border: 1px solid #71b406;
@@ -88,7 +89,8 @@ const ReviewHeadline = styled.div`
   font-size:20px;
   padding: 15px 0;
   font-weight: bold;
-  color: #fff;
+  color: rgb(0,92,75);
+  text-align: center;
 `
 
 const ReviewWrapper = styled.div`
@@ -96,11 +98,11 @@ const ReviewWrapper = styled.div`
   padding:20px;
   margin-left: 15px;
   border-radius: 0;
-  padding-bottom:80px;
-  border-left: 1px solid rgba(0,0,0,0.1);
+  padding-bottom:10px;
+
   height: 100vh;
-  padding-top: 100px;
-  background: black;
+  padding-top: 10px;
+  background: rgb(117,186,117);
   padding-right: 80px;
 `
 
