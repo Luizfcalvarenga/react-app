@@ -8,6 +8,7 @@ import App from '../components/App'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 document.addEventListener('DOMContentLoaded', () => {
+  
   ReactDOM.render(
     <Router>
       <Routes>
